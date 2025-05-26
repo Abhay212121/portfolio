@@ -1,8 +1,14 @@
+import Footer from "./components/Footer";
+import ProjectSection from "./components/ProjectSection";
+import Header from "./components/header";
+
 function App() {
   return (
-    <>
-      <p>hello</p>
-    </>
+    <div className="bg-[#061432]">
+      <Header />
+      <ProjectSection />
+      <Footer />
+    </div>
   );
 }
 
