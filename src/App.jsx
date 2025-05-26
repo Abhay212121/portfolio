@@ -4,7 +4,7 @@ import Header from "./components/header";
 
 function App() {
   return (
-    <div className="bg-[#061432]">
+    <div className="bg-[#061432] pb-25">
       <Header />
       <ProjectSection />
       <Footer />
