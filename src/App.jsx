@@ -4,7 +4,7 @@ import Header from "./components/header";
 
 function App() {
   return (
-    <div className="bg-[#061432] pb-25">
+    <div className="bg-gradient-to-br from-[#152543] to-[#061432] py-22">
       <Header />
       <ProjectSection />
       <Footer />

@@ -11,10 +11,9 @@ export default function Footer() {
   return (
     <div className="flex px-20 h-[55vh] justify-around bg-[#1A2946] items-start">
       <div className="text-white font-body flex flex-col gap-6 my-12">
-        <div>
-          <h2 className="font-heading text-5xl">Contact Me</h2>
-          <hr className="w-[45%] text-orange-400" />
-        </div>
+        <span className="font-heading w-fit text-5xl border-b-2 border-orange-400">
+          Contact Me
+        </span>
         <p className="text-xl">
           Please get in touch if you think our work could be mutually
           beneficial!

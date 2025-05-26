@@ -32,7 +32,7 @@ export default function Card({ project }) {
                   <Icon
                     path={mdiGithub}
                     size={1.4}
-                    className="hover:scale-110 duration-200 text-orange-300"
+                    className="hover:scale-110 duration-200 text-orange-400"
                   />
                 </a>
               </div>
@@ -44,7 +44,7 @@ export default function Card({ project }) {
                   <Icon
                     path={mdiOpenInNew}
                     size={1.4}
-                    className="hover:scale-110 duration-200 text-orange-300"
+                    className="hover:scale-110 duration-200 text-orange-400"
                   />
                 </a>
               </div>
@@ -62,7 +62,7 @@ export default function Card({ project }) {
                 <img
                   src={tech.logo}
                   alt={tech.name}
-                  className="w-fit"
+                  className="w-[90%]"
                 />
               </div>
             );
