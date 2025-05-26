@@ -32,7 +32,7 @@ export default function Footer() {
             size={1}
             className="text-orange-400 hover:scale-115 transition duration-200"
           />
-          <span>abhay.pvt.01@gmail.com</span>
+          <span>abhay.work.02@gmail.com</span>
         </p>
         <div className="flex gap-6 items-center">
           <a

@@ -1,5 +1,5 @@
 import projects from "../data/projectsDb";
-import Card from "./card";
+import Card from "./Card";
 
 export default function ProjectSection() {
   return (
