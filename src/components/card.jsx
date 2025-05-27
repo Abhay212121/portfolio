@@ -3,8 +3,8 @@ import { mdiOpenInNew, mdiGithub } from "@mdi/js";
 
 export default function Card({ project }) {
   return (
-    <div className="group flex max-w-[338px] flex-col rounded-4xl bg-[#162544] text-white transition duration-200 hover:scale-110 hover:bg-[#2736529e] sm:gap-4">
-      <div className="h-[18vh] w-full rounded-4xl sm:h-[22vh]">
+    <div className="group mx-4 flex max-w-[338px] flex-col gap-4 rounded-4xl bg-[#162544] text-white transition duration-200 hover:scale-110 hover:bg-[#2736529e] sm:mx-0 sm:gap-4">
+      <div className="h-fit w-full rounded-4xl sm:h-[22vh]">
         <a href={project.previewLink} target="_blank">
           <img
             src={project.img}
