@@ -3,14 +3,14 @@ import { mdiGithub, mdiLinkedin, mdiFileAccount } from "@mdi/js";
 
 export default function Header() {
   return (
-    <div className="font-body mx-auto flex min-h-[50vh] w-[75%] gap-18 bg-[#1A2946] px-12 py-4">
-      <div className="relative -left-30 w-[40%]">
+    <div className="font-body mx-4 flex min-h-[50vh] flex-col items-center gap-6 bg-[#1A2946] px-4 py-4 sm:mx-auto sm:w-[75%] sm:flex-row sm:gap-18 sm:px-12">
+      <div className="relative mx-auto px-10 sm:-left-30">
         <img
           src="images/profile/header.jpg"
           alt="Image Not Found"
-          className="size-80 min-w-fit"
+          className="size-50 min-w-fit sm:size-80"
         />
-        <p className="font-heading absolute bottom-8 left-26 text-5xl text-white">
+        <p className="font-heading absolute top-38 left-15 text-3xl text-white sm:top-50 sm:left-35 sm:text-5xl">
           Abhay Sharma
         </p>
       </div>
@@ -38,7 +38,7 @@ export default function Header() {
           excited to contribute my skills to innovative projects that make a
           positive impact.
         </p>
-        <div className="relative flex items-center justify-end gap-3">
+        <div className="relative flex items-center justify-center gap-3 sm:justify-end">
           <a href="https://github.com/Abhay212121" target="_blank">
             <Icon
               path={mdiGithub}
