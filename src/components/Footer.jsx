@@ -9,40 +9,37 @@ import {
 
 export default function Footer() {
   return (
-    <div className="flex px-20 h-[55vh] justify-around bg-[#1A2946] items-start">
-      <div className="text-white font-body flex flex-col gap-6 my-12">
-        <span className="font-heading w-fit text-5xl border-b-2 border-orange-400">
+    <div className="flex h-[55vh] items-start justify-around bg-[#1A2946] px-20">
+      <div className="font-body my-12 flex flex-col gap-6 text-white">
+        <span className="font-heading w-fit border-b-2 border-orange-400 text-5xl">
           Contact Me
         </span>
         <p className="text-xl">
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
-        <p className="flex gap-4 text-xl items-center">
+        <p className="flex items-center gap-4 text-xl">
           <Icon
             path={mdiPhone}
             size={1}
-            className="text-orange-400 hover:scale-115 transition duration-200"
+            className="text-orange-400 transition duration-200 hover:scale-115"
           />
           <span>+91 7678212166</span>
         </p>
-        <p className="flex gap-4 text-xl items-center">
+        <p className="flex items-center gap-4 text-xl">
           <Icon
             path={mdiEmail}
             size={1}
-            className="text-orange-400 hover:scale-115 transition duration-200"
+            className="text-orange-400 transition duration-200 hover:scale-115"
           />
           <span>abhay.work.02@gmail.com</span>
         </p>
-        <div className="flex gap-6 items-center">
-          <a
-            href="https://github.com/Abhay212121"
-            target="_blank"
-          >
+        <div className="flex items-center gap-6">
+          <a href="https://github.com/Abhay212121" target="_blank">
             <Icon
               path={mdiGithub}
               size={1.5}
-              className="text-orange-400 hover:scale-115 transition duration-200"
+              className="text-orange-400 transition duration-200 hover:scale-115"
             />
           </a>
           <a
@@ -52,7 +49,7 @@ export default function Footer() {
             <Icon
               path={mdiLinkedin}
               size={1.5}
-              className="text-orange-400 hover:scale-115 transition duration-200"
+              className="text-orange-400 transition duration-200 hover:scale-115"
             />
           </a>
           <a
@@ -62,12 +59,12 @@ export default function Footer() {
             <Icon
               path={mdiFileAccount}
               size={1.5}
-              className="text-orange-400 hover:scale-115 transition duration-200"
+              className="text-orange-400 transition duration-200 hover:scale-115"
             />
           </a>
         </div>
       </div>
-      <div className="h-[80%] my-auto">
+      <div className="my-auto h-[80%]">
         <img
           src="images/profile/footer.jpg"
           alt="Image not found"

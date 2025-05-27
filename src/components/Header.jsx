@@ -3,20 +3,20 @@ import { mdiGithub, mdiLinkedin, mdiFileAccount } from "@mdi/js";
 
 export default function Header() {
   return (
-    <div className="w-[75%] min-h-[50vh] mx-auto py-4 px-12 flex gap-18 bg-[#1A2946]  font-body">
-      <div className="w-[40%] -left-30 relative">
+    <div className="font-body mx-auto flex min-h-[50vh] w-[75%] gap-18 bg-[#1A2946] px-12 py-4">
+      <div className="relative -left-30 w-[40%]">
         <img
           src="images/profile/header.jpg"
           alt="Image Not Found"
           className="size-80 min-w-fit"
         />
-        <p className="font-heading text-5xl text-white absolute bottom-8 left-26">
+        <p className="font-heading absolute bottom-8 left-26 text-5xl text-white">
           Abhay Sharma
         </p>
       </div>
-      <div className="text-white flex flex-col gap-4">
+      <div className="flex flex-col gap-4 text-white">
         <span>
-          <span className="font-heading text-4xl border-b-2 border-orange-400">
+          <span className="font-heading border-b-2 border-orange-400 text-4xl">
             About Me
           </span>
         </span>
@@ -38,15 +38,12 @@ export default function Header() {
           excited to contribute my skills to innovative projects that make a
           positive impact.
         </p>
-        <div className="flex gap-3 items-center justify-end relative ">
-          <a
-            href="https://github.com/Abhay212121"
-            target="_blank"
-          >
+        <div className="relative flex items-center justify-end gap-3">
+          <a href="https://github.com/Abhay212121" target="_blank">
             <Icon
               path={mdiGithub}
               size={1.5}
-              className="text-orange-400 hover:scale-115 transition duration-200"
+              className="text-orange-400 transition duration-200 hover:scale-115"
             />
           </a>
           <a
@@ -56,7 +53,7 @@ export default function Header() {
             <Icon
               path={mdiLinkedin}
               size={1.5}
-              className="text-orange-400 hover:scale-115 transition duration-200"
+              className="text-orange-400 transition duration-200 hover:scale-115"
             />
           </a>
           <a
@@ -66,7 +63,7 @@ export default function Header() {
             <Icon
               path={mdiFileAccount}
               size={1.5}
-              className="text-orange-400 hover:scale-115 transition duration-200"
+              className="text-orange-400 transition duration-200 hover:scale-115"
             />
           </a>
         </div>
