@@ -1,5 +1,5 @@
 import projects from "../data/projectsDb";
-import Card from "./Card";
+import ProjectCard from "./ProjectCard";
 
 export default function ProjectSection() {
   return (
@@ -8,7 +8,7 @@ export default function ProjectSection() {
       <hr className="mx-auto mb-8 w-[30vw] text-orange-400 sm:w-[8vw]" />
       <div className="grid grid-cols-[repeat(auto-fit,minmax(330px,1fr))] justify-items-center gap-6">
         {projects.map((project) => (
-          <Card key={project.name} project={project} />
+          <ProjectCard key={project.name} project={project} />
         ))}
       </div>
     </div>
