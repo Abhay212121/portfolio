@@ -9,16 +9,16 @@ import {
 
 export default function Footer() {
   return (
-    <div className="flex min-h-10 flex-col-reverse items-center justify-around bg-[#1A2946] px-5 pt-10 sm:flex-row sm:items-start sm:px-20 sm:pt-0">
-      <div className="font-body my-12 flex min-h-full flex-col items-start gap-4 text-white sm:gap-6">
-        <span className="font-heading w-fit border-b-2 border-orange-400 text-3xl sm:text-5xl">
+    <div className="flex min-h-10 flex-col-reverse items-center justify-around bg-[#1A2946] px-5 pt-10 md:flex-row md:items-start md:px-20 md:pt-0">
+      <div className="font-body my-12 flex min-h-full flex-col items-start gap-4 text-white md:gap-6">
+        <span className="font-heading w-fit border-b-2 border-orange-400 text-3xl md:text-5xl">
           Contact Me
         </span>
-        <p className="text-lg sm:text-xl">
+        <p className="text-lg md:text-xl">
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
-        <p className="flex items-center gap-4 text-lg sm:text-xl">
+        <p className="flex items-center gap-4 text-lg md:text-xl">
           <Icon
             path={mdiPhone}
             size={1}
@@ -26,7 +26,7 @@ export default function Footer() {
           />
           <span>+91 7678212166</span>
         </p>
-        <p className="flex items-center gap-4 text-lg sm:text-xl">
+        <p className="flex items-center gap-4 text-lg md:text-xl">
           <Icon
             path={mdiEmail}
             size={1}
@@ -34,7 +34,7 @@ export default function Footer() {
           />
           <span>abhay.work.02@gmail.com</span>
         </p>
-        <div className="flex items-center gap-2 sm:gap-6">
+        <div className="flex items-center gap-2 md:gap-6">
           <a href="https://github.com/Abhay212121" target="_blank">
             <Icon
               path={mdiGithub}
@@ -68,7 +68,7 @@ export default function Footer() {
         <img
           src="images/profile/footer.jpg"
           alt="Image not found"
-          className="w-60 rounded-2xl sm:h-70 sm:min-w-70"
+          className="w-60 rounded-2xl md:h-70 md:min-w-70"
         />
       </div>
     </div>
