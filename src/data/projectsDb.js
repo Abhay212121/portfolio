@@ -1,5 +1,19 @@
 const projects = [
     {
+        name: 'Inventory Application',
+        img: 'images/projects/inventory.png',
+        githubLink: 'https://github.com/Abhay212121/inventory-application',
+        previewLink: 'https://inventory-application-cj5m.onrender.com/',
+        desc: 'Item tracking website for efficient inventory management.',
+        techStackUsed: [
+            { name: 'NodeJS', logo: 'images/techStack/nodejs.svg' },
+            { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
+            { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
+            { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
+            { name: 'git', logo: 'images/techStack/git.svg' }
+        ]
+    },
+    {
         name: 'Mini Message Board',
         img: 'images/projects/message-board.png',
         githubLink: 'https://github.com/Abhay212121/mini-msg-board',
@@ -8,7 +22,6 @@ const projects = [
         techStackUsed: [
             { name: 'NodeJS', logo: 'images/techStack/nodejs.svg' },
             { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
-            { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
             { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
             { name: 'git', logo: 'images/techStack/git.svg' }
         ]
