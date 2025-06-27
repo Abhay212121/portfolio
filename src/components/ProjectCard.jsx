@@ -13,7 +13,7 @@ export default function ProjectCard({ project }) {
           />
         </a>
       </div>
-      <div className="px-5">
+      <div className="px-4">
         <div className="min-h-[13vh]">
           <div className="mb-2 flex justify-between">
             <div className="relative w-fit">

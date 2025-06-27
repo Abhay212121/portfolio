@@ -1,5 +1,19 @@
 const projects = [
     {
+        name: 'chatzy',
+        img: 'images/projects/chatzy.png',
+        githubLink: 'https://github.com/Abhay212121/chatzy-frontend',
+        previewLink: 'https://chatzy-frontend-six.vercel.app',
+        desc: 'Real time chat application for effective fast and quick communication.',
+        techStackUsed: [
+            { name: 'React', logo: 'images/techStack/react.svg' },
+            { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
+            { name: 'Socket.IO', logo: 'images/techStack/socket.svg' },
+            { name: 'JWT', logo: 'images/techStack/jwt.svg' },
+            { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
+        ]
+    },
+    {
         name: 'Inventory Application',
         img: 'images/projects/inventory.png',
         githubLink: 'https://github.com/Abhay212121/inventory-application',
@@ -14,6 +28,18 @@ const projects = [
         ]
     },
     {
+        name: 'NaariStyle',
+        img: 'images/projects/naaristyle.png',
+        githubLink: 'https://github.com/Abhay212121/NaariStyle',
+        previewLink: 'https://naari-style.vercel.app/',
+        desc: 'An e-commerce website having eye Catching design and user friendly interface.',
+        techStackUsed: [
+            { name: 'React', logo: 'images/techStack/react.svg' },
+            { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
+            { name: 'git', logo: 'images/techStack/git.svg' }
+        ]
+    },
+    {
         name: 'Mini Message Board',
         img: 'images/projects/message-board.png',
         githubLink: 'https://github.com/Abhay212121/mini-msg-board',
@@ -22,18 +48,6 @@ const projects = [
         techStackUsed: [
             { name: 'NodeJS', logo: 'images/techStack/nodejs.svg' },
             { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
-            { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
-            { name: 'git', logo: 'images/techStack/git.svg' }
-        ]
-    },
-    {
-        name: 'NaariStyle',
-        img: 'images/projects/naaristyle.png',
-        githubLink: 'https://github.com/Abhay212121/NaariStyle',
-        previewLink: 'https://naari-style.vercel.app/',
-        desc: 'An e-commerce website having eye Catching design and user friendly interface.',
-        techStackUsed: [
-            { name: 'React', logo: 'images/techStack/react.svg' },
             { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
             { name: 'git', logo: 'images/techStack/git.svg' }
         ]
