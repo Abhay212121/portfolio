@@ -1,5 +1,19 @@
 const projects = [
     {
+        name: 'FitHub',
+        img: 'images/projects/fitHub.png',
+        githubLink: 'https://github.com/Abhay212121/fitness-ai',
+        previewLink: 'https://fitness-ai-five-ashen.vercel.app/',
+        desc: `AI-powered fitness tracker offering personalized health tips based on user's past exercise data, mood and sleep data.`,
+        techStackUsed: [
+            { name: 'React', logo: 'images/techStack/react.svg' },
+            { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
+            { name: 'OpenAI', logo: 'images/techStack/openai.svg' },
+            { name: 'JWT', logo: 'images/techStack/jwt.svg' },
+            { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
+        ]
+    },
+    {
         name: 'chatzy',
         img: 'images/projects/chatzy.png',
         githubLink: 'https://github.com/Abhay212121/chatzy-frontend',

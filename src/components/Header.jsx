@@ -57,7 +57,7 @@ export default function Header() {
             />
           </a>
           <a
-            href="https://drive.google.com/file/d/1ayZQJxjIXIo_KF64Gv6DsXqPTzGQjrdW/view?usp=sharing"
+            href="https://drive.google.com/file/d/12ssrQZXzDmmm1rsdRAyazUyqcIDhZsKu/view?usp=drive_link"
             target="_blank"
           >
             <Icon
