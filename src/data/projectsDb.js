@@ -28,17 +28,16 @@ const projects = [
         ]
     },
     {
-        name: 'Inventory Application',
-        img: 'images/projects/inventory.png',
-        githubLink: 'https://github.com/Abhay212121/inventory-application',
-        previewLink: 'https://inventory-application-cj5m.onrender.com/',
-        desc: 'Item tracking website for efficient inventory management.',
+        name: 'ClickedIn',
+        img: 'images/projects/clickedin.png',
+        githubLink: 'https://github.com/Abhay212121/Linkedin_clone_frontend',
+        previewLink: 'https://linkedin-clone-frontend-sage.vercel.app/',
+        desc: `A linkedIn clone where users can post, like, comment and change user pfp.`,
         techStackUsed: [
-            { name: 'NodeJS', logo: 'images/techStack/nodejs.svg' },
+            { name: 'React', logo: 'images/techStack/react.svg' },
             { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
+            { name: 'JWT', logo: 'images/techStack/jwt.svg' },
             { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
-            { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
-            { name: 'git', logo: 'images/techStack/git.svg' }
         ]
     },
     {
@@ -49,6 +48,20 @@ const projects = [
         desc: 'An e-commerce website having eye Catching design and user friendly interface.',
         techStackUsed: [
             { name: 'React', logo: 'images/techStack/react.svg' },
+            { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
+            { name: 'git', logo: 'images/techStack/git.svg' }
+        ]
+    },
+    {
+        name: 'Inventory Application',
+        img: 'images/projects/inventory.png',
+        githubLink: 'https://github.com/Abhay212121/inventory-application',
+        previewLink: 'https://inventory-application-cj5m.onrender.com/',
+        desc: 'Item tracking website for efficient inventory management.',
+        techStackUsed: [
+            { name: 'NodeJS', logo: 'images/techStack/nodejs.svg' },
+            { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
+            { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
             { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
             { name: 'git', logo: 'images/techStack/git.svg' }
         ]
@@ -78,18 +91,18 @@ const projects = [
             { name: 'git', logo: 'images/techStack/git.svg' }
         ]
     },
-    {
-        name: 'CV Builder',
-        img: 'images/projects/cvbuilder.png',
-        githubLink: 'https://github.com/Abhay212121/CV-builder',
-        previewLink: 'https://cv-builder-mocha.vercel.app/',
-        desc: 'Create a professional CV effortlessly with online CV builder.',
-        techStackUsed: [
-            { name: 'React', logo: 'images/techStack/react.svg' },
-            { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
-            { name: 'git', logo: 'images/techStack/git.svg' }
-        ]
-    },
+    // {
+    //     name: 'CV Builder',
+    //     img: 'images/projects/cvbuilder.png',
+    //     githubLink: 'https://github.com/Abhay212121/CV-builder',
+    //     previewLink: 'https://cv-builder-mocha.vercel.app/',
+    //     desc: 'Create a professional CV effortlessly with online CV builder.',
+    //     techStackUsed: [
+    //         { name: 'React', logo: 'images/techStack/react.svg' },
+    //         { name: 'Tailwind', logo: 'images/techStack/tailwind.svg' },
+    //         { name: 'git', logo: 'images/techStack/git.svg' }
+    //     ]
+    // },
     {
         name: 'Procrastinot',
         img: 'images/projects/todolist.png',
@@ -103,32 +116,32 @@ const projects = [
             { name: 'git', logo: 'images/techStack/git.svg' }
         ]
     },
-    {
-        name: 'Weatherly',
-        img: 'images/projects/weatherly.png',
-        githubLink: 'https://github.com/Abhay212121/Weatherly',
-        previewLink: 'https://abhay212121.github.io/Weatherly/',
-        desc: 'Get real time weather updates with our weather App.',
-        techStackUsed: [
-            { name: 'JavaScript', logo: 'images/techStack/javascript.svg' },
-            { name: 'HTML', logo: 'images/techStack/html.svg' },
-            { name: 'CSS', logo: 'images/techStack/css.svg' },
-            { name: 'git', logo: 'images/techStack/git.svg' }
-        ]
-    },
-    {
-        name: 'Calculator',
-        img: 'images/projects/calculator.png',
-        githubLink: 'https://github.com/Abhay212121/Calculator',
-        previewLink: 'https://abhay212121.github.io/Calculator/',
-        desc: 'A fast, elegant and easy to use calculator for all your calculation needs.',
-        techStackUsed: [
-            { name: 'JavaScript', logo: 'images/techStack/javascript.svg' },
-            { name: 'HTML', logo: 'images/techStack/html.svg' },
-            { name: 'CSS', logo: 'images/techStack/css.svg' },
-            { name: 'git', logo: 'images/techStack/git.svg' }
-        ]
-    },
+    // {
+    //     name: 'Weatherly',
+    //     img: 'images/projects/weatherly.png',
+    //     githubLink: 'https://github.com/Abhay212121/Weatherly',
+    //     previewLink: 'https://abhay212121.github.io/Weatherly/',
+    //     desc: 'Get real time weather updates with our weather App.',
+    //     techStackUsed: [
+    //         { name: 'JavaScript', logo: 'images/techStack/javascript.svg' },
+    //         { name: 'HTML', logo: 'images/techStack/html.svg' },
+    //         { name: 'CSS', logo: 'images/techStack/css.svg' },
+    //         { name: 'git', logo: 'images/techStack/git.svg' }
+    //     ]
+    // },
+    // {
+    //     name: 'Calculator',
+    //     img: 'images/projects/calculator.png',
+    //     githubLink: 'https://github.com/Abhay212121/Calculator',
+    //     previewLink: 'https://abhay212121.github.io/Calculator/',
+    //     desc: 'A fast, elegant and easy to use calculator for all your calculation needs.',
+    //     techStackUsed: [
+    //         { name: 'JavaScript', logo: 'images/techStack/javascript.svg' },
+    //         { name: 'HTML', logo: 'images/techStack/html.svg' },
+    //         { name: 'CSS', logo: 'images/techStack/css.svg' },
+    //         { name: 'git', logo: 'images/techStack/git.svg' }
+    //     ]
+    // },
 ]
 
 export default projects

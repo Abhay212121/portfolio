@@ -53,7 +53,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://drive.google.com/file/d/12ssrQZXzDmmm1rsdRAyazUyqcIDhZsKu/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1rvFJkN40vP874Mvv6aS0eMlVcbVk3ulF/view?usp=sharing"
             target="_blank"
           >
             <Icon
