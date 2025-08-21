@@ -14,6 +14,20 @@ const projects = [
         ]
     },
     {
+        name: 'ActionNotes',
+        img: 'images/projects/actionnotes.png',
+        githubLink: 'https://github.com/Abhay212121/Meeting-Notes-Summarizer-AI',
+        previewLink: 'https://mango-desk-frontend.vercel.app/',
+        desc: `An AI-powered app that transforms raw meeting transcripts into clear, editable summaries you can easily share.`,
+        techStackUsed: [
+            { name: 'React', logo: 'images/techStack/react.svg' },
+            { name: 'ExpressJS', logo: 'images/techStack/express.svg' },
+            { name: 'Groq', logo: 'images/techStack/groq.png' },
+            { name: 'JWT', logo: 'images/techStack/jwt.svg' },
+            { name: 'PostgreSQL', logo: 'images/techStack/sql.svg' },
+        ]
+    },
+    {
         name: 'chatzy',
         img: 'images/projects/chatzy.png',
         githubLink: 'https://github.com/Abhay212121/chatzy-frontend',
