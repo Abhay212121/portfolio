@@ -17,7 +17,7 @@ const projects = [
         name: 'ActionNotes',
         img: 'images/projects/actionnotes.png',
         githubLink: 'https://github.com/Abhay212121/Meeting-Notes-Summarizer-AI',
-        previewLink: 'https://mango-desk-frontend.vercel.app/',
+        previewLink: 'https://actionnotes-frontend.vercel.app/',
         desc: `An AI-powered app that transforms raw meeting transcripts into clear, editable summaries you can easily share.`,
         techStackUsed: [
             { name: 'React', logo: 'images/techStack/react.svg' },

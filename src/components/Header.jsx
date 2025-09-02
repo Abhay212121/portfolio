@@ -21,16 +21,18 @@ export default function Header() {
           </span>
         </span>
         <p className="text-lg leading-6">
-          Hey! I'm Abhay Sharma, a passionate web developer specializing in
-          creating clean, modern websites with seamless user experiences. With a
-          keen eye for design and strong technical skills, I craft digital
-          solutions that combine functionality and aesthetic appeal.
+          Hey! I'm Abhay Sharma, an experienced full-stack web developer and
+          freelancer passionate about building clean, modern applications with
+          seamless user experiences. With expertise spanning frontend, backend,
+          and AI-powered solutions, I deliver digital products that balance
+          functionality with aesthetic appeal.
         </p>
         <p className="text-lg leading-6">
-          My journey began during college when I discovered a love for coding.
-          Since then, I've honed my skills through numerous projects, constantly
-          exploring new technologies. What drives me is the challenge of
-          translating complex requirements into elegant, user-friendly
+          My journey started in college when I discovered my passion for coding.
+          Since then, I’ve worked on diverse projects as both a learner and
+          freelancer, sharpening my skills across the stack and exploring
+          emerging AI technologies. What excites me most is solving complex
+          problems and transforming ideas into intuitive, user-friendly
           applications.
         </p>
         <p className="text-lg leading-6">
@@ -57,7 +59,7 @@ export default function Header() {
             />
           </a>
           <a
-            href="https://drive.google.com/file/d/1rvFJkN40vP874Mvv6aS0eMlVcbVk3ulF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Vp_ZqVOlkSY9xgO3VsIoxJh7EHVC35uA/view?usp=sharing"
             target="_blank"
           >
             <Icon
