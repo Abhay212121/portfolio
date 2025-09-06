@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function ProjectSection() {
   return (
-    <div className="mb-10 w-full px-4 pt-20 sm:px-6 lg:px-8">
+    <div className="mb-10 w-full px-4 py-20 sm:px-6 lg:px-8">
       <div className="mb-12 text-center">
         <h2 className="text-4xl font-bold text-white">
           My <span className="text-orange-400">Projects</span>
