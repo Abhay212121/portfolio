@@ -3,7 +3,7 @@ import { mdiGithub, mdiLinkedin, mdiFileAccount } from "@mdi/js";
 
 export default function Header() {
   return (
-    <div className="font-body mx-4 flex min-h-[50vh] flex-col items-center gap-6 bg-[#1A2946] px-4 py-4 lg:mx-auto lg:w-[90%] lg:flex-row lg:gap-18 lg:px-12 xl:w-[75%]">
+    <div className="font-body mx-4 flex min-h-[50vh] flex-col items-center gap-6 bg-gray-800 px-4 py-4 lg:mx-auto lg:w-[90%] lg:flex-row lg:gap-18 lg:px-12 xl:w-[75%]">
       <div className="relative mx-auto px-10 lg:-left-30">
         <img
           src="images/profile/header.jpg"
@@ -17,10 +17,10 @@ export default function Header() {
       <div className="flex flex-col gap-4 text-white">
         <span>
           <span className="font-heading border-b-2 border-orange-400 text-4xl">
-            About Me
+            About <span className="text-orange-400">Me</span>
           </span>
         </span>
-        <p className="text-lg leading-6">
+        <p className="text-lg leading-relaxed">
           Hey! I'm Abhay Sharma, an experienced full-stack web developer and
           freelancer passionate about building clean, modern applications with
           seamless user experiences. With expertise spanning frontend, backend,

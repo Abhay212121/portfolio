@@ -3,7 +3,7 @@ import { mdiOpenInNew, mdiGithub } from "@mdi/js";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="group mx-4 flex max-w-[338px] flex-col gap-4 rounded-4xl bg-[#162544] text-white transition duration-200 hover:scale-110 hover:bg-[#2736529e] sm:mx-0 sm:gap-4">
+    <div className="group mx-4 flex max-w-[338px] flex-col gap-4 rounded-4xl bg-gray-800 text-white transition duration-200 hover:scale-110 hover:bg-[#2736529e] sm:mx-0 sm:gap-4">
       <div className="h-fit w-full rounded-4xl sm:h-[22vh]">
         <a href={project.previewLink} target="_blank">
           <img
@@ -17,7 +17,7 @@ export default function ProjectCard({ project }) {
         <div className="min-h-[13vh]">
           <div className="mb-2 flex justify-between">
             <div className="relative w-fit">
-              <p className="font-heading border-b-2 border-orange-400 text-2xl text-orange-400 sm:border-0">
+              <p className="font-heading border-b-2 border-orange-400 text-2xl text-orange-400">
                 {project.name}
               </p>
               <span className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-400 transition-all duration-300 group-hover:w-full"></span>
@@ -43,7 +43,7 @@ export default function ProjectCard({ project }) {
               </div>
             </div>
           </div>
-          <div className="font-body h-fit text-lg sm:min-h-20">
+          <div className="font-body leading- h-fit text-lg sm:min-h-20">
             {project.desc}
           </div>
         </div>

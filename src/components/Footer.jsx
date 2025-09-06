@@ -9,12 +9,12 @@ import {
 
 export default function Footer() {
   return (
-    <div className="flex min-h-10 flex-col-reverse items-center justify-around bg-[#1A2946] px-5 pt-10 md:flex-row md:items-start md:px-20 md:pt-0">
+    <div className="flex min-h-10 flex-col-reverse items-center justify-around bg-gray-800 px-5 pt-10 md:flex-row md:items-start md:px-20 md:pt-0">
       <div className="font-body my-12 flex min-h-full flex-col items-start gap-4 text-white md:gap-6">
         <span className="font-heading w-fit border-b-2 border-orange-400 text-3xl md:text-5xl">
-          Contact Me
+          Contact <span className="text-orange-400">Me</span>
         </span>
-        <p className="text-lg md:text-xl">
+        <p className="text-lg leading-relaxed md:text-xl">
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
@@ -24,7 +24,7 @@ export default function Footer() {
             size={1}
             className="text-orange-400 transition duration-200 hover:scale-115"
           />
-          <span>+91 7678212166</span>
+          <span className="leading-relaxed">+91 7678212166</span>
         </p>
         <p className="flex items-center gap-4 text-lg md:text-xl">
           <Icon
@@ -32,7 +32,7 @@ export default function Footer() {
             size={1}
             className="text-orange-400 transition duration-200 hover:scale-115"
           />
-          <span>abhay.work.02@gmail.com</span>
+          <span className="leading-relaxed">abhay.work.02@gmail.com</span>
         </p>
         <div className="flex items-center gap-2 md:gap-6">
           <a href="https://github.com/Abhay212121" target="_blank">
