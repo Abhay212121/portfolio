@@ -5,25 +5,19 @@ const experiences = [
   {
     title: "Frontend Developer",
     company: "Digital Supreme",
-    period: "June 2025 - August 2025",
+    period: "June 2025 - Present",
     location: "Remote",
     type: "Internship",
     achievements: [
-      "Designed and delivered fully responsive, production-ready websites for clients including QCERT (ISO certification services) and Sneha Foundation (NGO), among others.",
-      "Managed hosting, domain setup, and implemented on-page SEO (meta descriptions, sitemap, robots.txt) to improve visibility and performance.",
-      "Developed user-friendly interfaces that enhanced online credibility, facilitated customer inquiries, and boosted engagement across multiple projects.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company: "3B AutoXperts",
-    period: "July 2025",
-    location: "Remote",
-    type: "Freelance",
-    achievements: [
-      "Developed a secure business dashboard for 3B AutoXperts, enabling authorized users to efficiently manage sales and purchase records.",
-      "Replaced spreadsheets with a user-friendly dashboard that improved efficiency, real-time visibility, and business decision-making for the co-founders.",
-      "Enabled the business's 3 co-founders to track individual contributions and visualize profit/loss breakdowns, making business insights more accessible.",
+      `Designed and delivered responsive, production-grade sites for clients including QCERT (ISO services), Sneha
+Foundation (NGO), and 3B AutoXperts (automobile products) using React.js, Node.js, and Express.js.`,
+      `Developed and deployed a secure business management dashboard for 3B AutoXperts, enabling authorized users to
+efficiently manage sales, purchase, and profit/loss records, improving data visibility and operational efficiency.
+`,
+      ` Configured hosting environments, managed domain setup, and implemented on-page SEO (meta descriptions,
+sitemap, robots.txt) to enhance search engine visibility and performance metrics.`,
+      `Built user-friendly, high-performance interfaces that enhanced client credibility, streamlined customer inquiries, and
+increased user engagement across multiple digital platforms.`,
     ],
   },
 ];
