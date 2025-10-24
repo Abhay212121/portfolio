@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company: "Digital Supreme",
-    period: "June 2025 - Present",
+    period: "June 2025 - August 2025",
     location: "Remote",
     type: "Internship",
     achievements: [
